@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://avatars1.githubusercontent.com/u/29598503?v=3&s=256" alt="Project">
+  <img src="grafana_icon.png" alt="Grafana">
   <br />
-  [Project]
+  Grafana
 </h1>
 
-<p align="center"><b>This is the snap for [Project]</b>, <i>"Single-line elevator pitch for your amazing snap"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
+<p align="center"><b>This is the snap for Grafana</b>, <i>"Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB."</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
@@ -15,8 +15,7 @@ distributions.</p>
 
 ## Install
 
-    sudo apt install snapd-xdg-open
-    sudo snap install my-snap-name
+    sudo snap install grafana
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
@@ -34,15 +33,15 @@ the [snapcraft.yaml](https://github.com/snapcrafters/fork-and-rename-me/blob/mas
 upstream so [Project] can authoritatively publish future releases.
 
   - [x] Fork the [Snapcrafters template](https://github.com/snapcrafters/fork-and-rename-me) repository to your own GitHub account
-  - [ ] Rename the forked Snapcrafters template repository
-  - [ ] Update logos and references to `[Project]` and `[my-snap-name]`
+  - [X] Rename the forked Snapcrafters template repository
+  - [X] Update logos and references to `[Project]` and `[my-snap-name]`
   - [ ] Create a snap that runs in `devmode`
   - [ ] Register the snap in the store, **using the preferred upstream name**
   - [ ] Add a screenshot to this `README.md`
   - [ ] Publish the `devmode` snap in the Snap store edge channel
-  - [ ] Add install instructions to this `README.md`
+  - [X] Add install instructions to this `README.md`
   - [ ] Update snap store metadata, icons and screenshots
-  - [ ] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
+  - [X] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
   - [ ] Publish the confined snap in the Snap store beta channel
   - [ ] Update the install instructions in this `README.md`
   - [ ] Post a call for testing on the [Snapcraft Forum](https://forum.snapcraft.io) - [link]()
@@ -63,14 +62,12 @@ If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft
 
 ## The Snapcrafters
 
-| [![Your Name](http://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431/?s=128)](https://github.com/yourname/) |
+| [![Woodrow Shen](https://avatars2.githubusercontent.com/u/5362960?v=4&s=460)](https://github.com/woodrow-shen/) |
 | :---: |
-| [Your Name](https://github.com/yourname/) |
+| [Woodrow Shen](https://github.com/woodrow-shen/) |
 
-<!-- Uncomment and modify this when you have upstream contacts
 ## Upstream
 
-| [![Upstream Name](http://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431?s=128)](https://github.com/upstreamname) |
+| [![Grafana](https://avatars0.githubusercontent.com/u/7195757?v=4&s=200)](https://github.com/grafana) |
 | :---: |
-| [Upstream Name](https://github.com/upstreamname) |
--->
+| [Grafana](https://github.com/grafana) |
