@@ -1,4 +1,4 @@
-name: grafana 
+name: grafana
 version: 4.4.3-1
 summary: The tool for monitoring and metric analytics & dashboards
 description: |
@@ -26,10 +26,10 @@ parts:
     source-type: git
     source: https://github.com/grafana/grafana
     source-branch: v4.4.x
-    prepare: |
+    build: |
+      export GOPATH=$PWD/golang
       mkdir -p $GOPATH/src/github.com/grafana
       ln -s  $PWD $GOPATH/src/github.com/grafana/grafana
-    build: |
       cd $GOPATH/src/github.com/grafana/grafana
       go run build.go setup
       go run build.go build
@@ -42,14 +42,15 @@ parts:
   go:
     source-tag: go1.8.3
   grafana-ui:
-    plugin: nil
+    plugin: nodejs
     source-type: git
     source: https://github.com/grafana/grafana
-    prepare: |
+    node-engine: '6.11.2'
+    node-package-manager: yarn
+    build: |
+      export PATH=$HOME/.npm-global/bin:$PATH
       mkdir ~/.npm-global
       npm config set prefix '~/.npm-global'
-      export PATH=~/.npm-global/bin:$PATH
-    build: |
       npm install -g yarn
       yarn install --pure-lockfile
       npm run build
