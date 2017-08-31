@@ -1,5 +1,5 @@
 name: grafana
-version: 5.0.0-1
+version: 4.5.0-1
 summary: The tool for monitoring and metric analytics & dashboards
 description: |
   Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite,
