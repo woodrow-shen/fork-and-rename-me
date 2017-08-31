@@ -1,4 +1,4 @@
-name: grafana
+name: woodrow-grafana
 version: 5.0.0-1
 summary: The tool for monitoring and metric analytics & dashboards
 description: |
